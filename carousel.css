@@ -1,0 +1,57 @@
+
+	#carouselachtergrond{
+	    background-color: RGB(171,241,95);
+        border-radius: 40%;
+		margin-left: 10%;
+		margin-right: 10%;
+		float:center;
+
+	}
+
+	 #carousel {
+        /* margin-left:5%; */
+      /*   padding-bottom: 2%; */
+	 /* margin-left:5%; */
+/*  	width: 71%;
+		height: 95%; */
+/*         width:960px;   */
+       /*  height:370px; */
+
+		width: 100%;
+		height: 60vh;
+
+		text-align:center;
+
+		/* margin: auto; */
+       /*  position:absolute; */
+        clear:both;
+        overflow:hidden;
+		background:none;
+
+
+
+
+
+
+      }
+      #carousel img {
+
+        height:50%;
+        width:30%;
+/* 		max-width:50%;
+		max-height:80%; */
+
+
+
+        visibility:hidden; /* hide images until carousel can handle them */
+        cursor:pointer; /* otherwise it's not as obvious items can be clicked */
+       /*  position:center; */
+        /*makes a playful border around the image in the slideshow*/
+        padding-top: 1%;
+        padding-right: 1%;
+      /*   border-image-slice: 15 27 15 27; */
+        border-image-width: 15% 15p% 15p% 15%;
+        border-style: solid;
+        border-color: black;
+        border-radius: 25%;
+      }
